@@ -13,4 +13,9 @@ public class KeyValueModule {
 
     public KeyValueModule() {
     }
+
+    public KeyValueModule(String key, String value) {
+        this.key = key;
+        this.value = value;
+    }
 }
